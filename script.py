@@ -3,6 +3,8 @@ from discord import app_commands
 from discord.ext import commands
 import os
 
+token = "" #insert inside the "" the bot token
+
 
 
 intents = discord.Intents.default()
@@ -624,4 +626,4 @@ async def numberofmessages(ctx: discord.Interaction):
     
 
     
-bot.run("MTEzNDQwMjQzNzU3MTE2NjIzOA.GBy4GS.Mqo4XBy7mBhh3gRfSaJ8OLf7xLxEWT-SVhveRQ")
+bot.run(token)
