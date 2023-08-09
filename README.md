@@ -15,7 +15,7 @@ It gives a .txt document with the wanted data. This bot **doesn't store the mess
 7. Invite your bot to the server where you want to make stats: https://discord.com/developers/applications (click on: [your bot]/OAuth2/URL Generator)
 Check at least: Read messages/View Channels + Send Messages + Read Message History + Use Slash Commands
 
-##Utilisation
+## Utilisation
 
 1. `/makestats` channel makes data just for the channel where the message has been sent.
 Otherwise: `/makestats server` makes data for every channel in the server where the message has been sent.
